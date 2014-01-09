@@ -9,12 +9,13 @@
  <tileset firstgid="3" name="3" tilewidth="82" tileheight="126">
   <image source="../images/goat.png" width="82" height="126"/>
  </tileset>
- <imagelayer name="map_bg" width="1" height="1" opacity="0.91">
+ <tileset firstgid="4" source="bg.tsx"/>
+ <imagelayer name="map_bg" width="1" height="1" visible="0">
   <image source="../images/map_bg.jpg"/>
  </imagelayer>
- <layer name="块层 1" width="1" height="1" visible="0">
+ <layer name="块层 1" width="1" height="1">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgAAAABAAB
+   eJxjYWBgAAAAFAAF
   </data>
  </layer>
  <objectgroup name="pets" width="1" height="1">
